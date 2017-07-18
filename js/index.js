@@ -7,7 +7,6 @@
   function encodeWithData(data, serviceName) {
     var temp = "{\"secret\":\"" + data + "\",\"service_name\":\"" + serviceName +"\"}";
     var aa = encodeURIComponent(temp);
-    //document.getElementById('result').innerHTML = aa;
     makeqr(aa);
     return aa;
   }

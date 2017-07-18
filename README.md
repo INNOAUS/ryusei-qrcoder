@@ -8,3 +8,6 @@ url encoding included.
 
 2. Bootstrap
 > http://getbootstrap.com
+
+# Result
+![Screenshot](result.png)
