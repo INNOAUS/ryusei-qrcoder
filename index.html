@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/qrcode.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <link href="css/index.css" rel="stylesheet">
+    <title>Ryusei QR Coder</title>
+  </head>
+  <body>
+      <div class="container">
+        <div class="form-box">
+          <h4>updated 2017-06-21 </h4>
+          <h2>Ryusei QR Coder</h2>
+          <br/>Service Name<br/>
+          <input id="serviceName" class="form-control" autofocus></input>
+          <br/>Secret<br/>
+          <input id="data" class="form-control"></input><br/><br/>
+          <button id="encode" class="btn btn-lg btn-success btn-block" onclick="encode()">Make</button>
+          <br/><br/>
+          <div id="qrcode"> </div>
+          <br/><br/>
+          <br><br>
+          <div id="side-menu">
+          </div>
+          <br><br>
+        </div>
+        <div class="footer">
+          <h6>Powered by <a href="http://rainpass.io">Rainpass</a></h6>
+          <h6>Copyright © 2017 Innoaus</h6>
+        </div>
+      </div>
+  </body>
+</html>

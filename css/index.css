@@ -1,0 +1,50 @@
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
+
+.form-box {
+  max-width: 500px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-box h4 {
+  color: #999;
+}
+.form-box .form-box-heading,
+.form-box .checkbox {
+  margin-bottom: 10px;
+}
+.form-box .checkbox {
+  font-weight: normal;
+}
+.form-box .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-box .form-control:focus {
+  z-index: 2;
+}
+
+.footer {
+   text-align: center;
+   bottom:0;
+   height:60px;   /* Height of the footer */
+}
+
+.footer h6 {
+  color: #333;
+}
+
+#qrcode {
+  padding: 0;
+  margin: auto;
+  display: block;
+  width: 400px;
+}
